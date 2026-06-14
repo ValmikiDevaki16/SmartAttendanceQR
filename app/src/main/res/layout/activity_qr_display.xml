@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_deep"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/tvSessionStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACTIVE SESSION"
+            android:textColor="@color/indigo"
+            android:textSize="11sp"
+            android:letterSpacing="0.15"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tvClassName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class Name"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvSessionInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session started"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:layout_marginBottom="28dp"/>
+
+        <!-- QR Code Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bg_surface"
+            android:padding="24dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/ivQrCode"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="QR Code"/>
+
+            <!-- Timer Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/bg_elevated"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/tvTimerLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expires in  "
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/tvTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="05:00"
+                    android:textColor="@color/indigo"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Live Stats Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_surface"
+                android:padding="14dp"
+                android:layout_marginEnd="8dp">
+
+                <TextView
+                    android:id="@+id/tvPresentCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/indigo"
+                    android:textSize="28sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Present"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_surface"
+                android:padding="14dp"
+                android:layout_marginEnd="8dp">
+
+                <TextView
+                    android:id="@+id/tvAbsentCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#FF6B6B"
+                    android:textSize="28sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Absent"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bg_surface"
+                android:padding="14dp">
+
+                <TextView
+                    android:id="@+id/tvTotalStudents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/text_primary"
+                    android:textSize="28sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Share QR Button -->
+        <TextView
+            android:id="@+id/btnShareQr"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Share QR Code"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_btn_indigo"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- End Session Button -->
+        <TextView
+            android:id="@+id/btnEndSession"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="End Session"
+            android:textColor="#FF6B6B"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/bg_surface"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Regenerate QR Button -->
+        <TextView
+            android:id="@+id/btnRefreshQr"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Regenerate QR"
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="@drawable/bg_surface"/>
+
+    </LinearLayout>
+</ScrollView>

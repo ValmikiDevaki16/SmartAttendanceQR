@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Dark dialog — used in AlertDialog.Builder(context, R.style.DarkDialog) -->
+    <style name="DarkDialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:background">@color/bg_card</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorPrimary">@color/indigo</item>
+        <item name="colorAccent">@color/indigo</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DarkDialogButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/DarkDialogButtonNeg</item>
+    </style>
+
+    <style name="DarkDialogButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/indigo</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DarkDialogButtonNeg" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/text_muted</item>
+    </style>
+
+    <!-- FAB style — indigo -->
+    <style name="IndigoFAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/indigo</item>
+        <item name="tint">@color/text_primary</item>
+    </style>
+
+    <!-- Chip style for class codes -->
+    <style name="CodeChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/indigo_dim</item>
+        <item name="android:textColor">@color/text_indigo</item>
+        <item name="chipStrokeColor">@color/border_indigo</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+</resources>

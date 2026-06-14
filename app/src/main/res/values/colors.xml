@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base backgrounds -->
+    <color name="bg_deep">#0A0A1A</color>
+    <color name="bg_card">#111827</color>
+    <color name="bg_surface">#1F2937</color>
+    <color name="bg_elevated">#161B22</color>
+    <color name="bg_dim">#0D1117</color>
+
+    <!-- Indigo / primary -->
+    <color name="indigo">#6366F1</color>
+    <color name="indigo_dark">#4F46E5</color>
+    <color name="indigo_dim">#1E1B4B</color>
+    <color name="indigo_glow">#312E81</color>
+
+    <!-- Emerald / success -->
+    <color name="emerald">#10B981</color>
+    <color name="emerald_dark">#059669</color>
+    <color name="emerald_dim">#022C22</color>
+
+    <!-- Cyan / QR accent -->
+    <color name="cyan">#22D3EE</color>
+    <color name="cyan_dark">#0E7490</color>
+    <color name="cyan_dim">#0C4A6E</color>
+
+    <!-- Rose / danger -->
+    <color name="rose">#EF4444</color>
+    <color name="rose_dark">#DC2626</color>
+    <color name="rose_dim">#1F1315</color>
+
+    <!-- Amber / warning -->
+    <color name="amber">#F59E0B</color>
+    <color name="amber_dark">#D97706</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9CA3AF</color>
+    <color name="text_muted">#6B7280</color>
+    <color name="text_indigo">#A5B4FC</color>
+    <color name="text_cyan">#67E8F9</color>
+
+    <!-- Borders -->
+    <color name="border">#374151</color>
+    <color name="border_dim">#21262D</color>
+    <color name="border_indigo">#312E81</color>
+
+    <!-- Class card backgrounds -->
+    <color name="card_blue">#1E3A5F</color>
+    <color name="card_green">#065F46</color>
+    <color name="card_purple">#2D1B69</color>
+    <color name="card_rose">#4C0519</color>
+
+    <!-- Transparent overlays -->
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="black_50">#80000000</color>
+
+    <!-- Status bar -->
+    <color name="status_bar">#0A0A1A</color>
+</resources>

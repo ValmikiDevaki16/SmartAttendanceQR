@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1010093704537",
+    "project_id": "smartattendanceqr-e024c",
+    "storage_bucket": "smartattendanceqr-e024c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010093704537:android:de23658016341e19d33848",
+        "android_client_info": {
+          "package_name": "com.devaki.smartattendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIIEqARVLk1v-BiLP22ZX2kmwivWRwo2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
