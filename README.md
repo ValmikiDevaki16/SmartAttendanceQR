@@ -4,6 +4,8 @@ A QR Code Based Attendance Management System developed using **Kotlin** and **Fi
 
 SmartAttendanceQR simplifies classroom attendance by allowing teachers to generate time-limited QR codes and students to mark attendance by scanning them. The system provides real-time attendance tracking, class management, and attendance analytics.
 
+---
+
 ## ✨ Features
 
 ### 👨‍🏫 Teacher Module
@@ -18,6 +20,8 @@ SmartAttendanceQR simplifies classroom attendance by allowing teachers to genera
 - Delete Classes
 - End Active Sessions
 
+---
+
 ### 👨‍🎓 Student Module
 - Student Registration & Login
 - Join Classes Using Class Codes
@@ -25,6 +29,8 @@ SmartAttendanceQR simplifies classroom attendance by allowing teachers to genera
 - View Subject-wise Attendance
 - Track Attendance Percentage
 - Attendance History Dashboard
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -34,6 +40,8 @@ SmartAttendanceQR simplifies classroom attendance by allowing teachers to genera
 - **Database:** Firebase Firestore
 - **QR Generation:** ZXing Library
 - **Architecture:** Activity-Based Android Application
+
+---
 
 ## 📂 Project Structure
 
@@ -50,6 +58,8 @@ SmartAttendanceQR
 ├── gradle/
 ├── screenshots/
 └── README.md
+
+---
 
 ## 🚀 Workflow
 
@@ -72,6 +82,8 @@ SmartAttendanceQR
 4. Attendance Marked
 5. View Attendance Statistics
 
+---
+
 ## 📸 Application Screenshots
 
 ### 1. Teacher Registration Screen
@@ -81,7 +93,7 @@ SmartAttendanceQR
 <img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/7c6cf2c8-ae6e-4e6e-be73-bd7fdeb804cf" />
 
 ### 3. Teacher Dashboard
-
+<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/a989da96-6212-41c9-8c47-753d8dce37f6" />
 
 ### 4. Create Class Dialog
 <img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/f84f84e3-b548-4c59-ad4d-06f42ceeb4e7" />
@@ -104,6 +116,7 @@ SmartAttendanceQR
 ### 10. User Login Screen
 <img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/92761e21-ea41-46f7-a936-cd05ad3a1278" />
 
+---
 
 ## 🔒 Security Features
 
